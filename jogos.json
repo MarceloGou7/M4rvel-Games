@@ -1,0 +1,564 @@
+[
+  {
+    "identificador": "spiderman-2",
+    "titulo": "Marvel's Spider-Man 2",
+    "categoria": [
+      "Homem-Aranha"
+    ],
+    "ano": 2023,
+    "desenvolvedora": "Insomniac Games",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "generos": [
+      "Ação",
+      "Aventura"
+    ],
+    "avaliacao": "9.5/10",
+    "capa": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/0a5face6e59f61c2ed7f9423c778b10f2e4b8cada54d164f.png",
+    "descricao": "Os Spider-Men Peter Parker e Miles Morales retornam para uma nova e empolgante aventura na aclamada franquia Marvel's Spider-Man. Alterne entre os dois heróis enquanto enfrentam o icônico vilão Venom e a ameaça de Kraven, o Caçador.",
+    "trailer": "https://www.youtube.com/embed/bgqGdIoa52s",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP9000-PPSA03016_00-MARVELSPIDERMAN2"
+  },
+  {
+    "identificador": "spiderman-1",
+    "titulo": "Marvel's Spider-Man",
+    "categoria": [
+      "Homem-Aranha"
+    ],
+    "ano": 2018,
+    "desenvolvedora": "Insomniac Games",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "PC"
+    ],
+    "generos": [
+      "Ação",
+      "Aventura"
+    ],
+    "avaliacao": "8.7/10",
+    "capa": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/AcjaXqwZzggGiKLFdEfHMp0H.png",
+    "descricao": "Esse não é o Spider-Man que você conhece ou já viu antes. É um Peter Parker experiente, que domina melhor a arte de combater os grandes criminosos na cidade de Nova York. Ao mesmo tempo, ele está tendo dificuldades para equilibrar sua vida pessoal caótica e sua carreira, tudo isso enquanto o destino da Nova York da Marvel está em suas mãos.",
+    "trailer": "https://www.youtube.com/embed/q4GdJVvdxss?si=PKIOqirQ8zOBdFuI",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP9000-CUSA02299_00-MARVELSSMGOTY000"
+  },
+  {
+    "identificador": "marvel-rivals",
+    "titulo": "Marvel Rivals",
+    "categoria": [
+      "Os Vingadores",
+      "Quarteto Fantástico",
+      "X-Men & Mutantes",
+      "Anti-Heróis",
+      "Online"
+    ],
+    "ano": 2024,
+    "desenvolvedora": "NetEase Games",
+    "plataformas": [
+      "PC",
+      "PS5",
+      "Xbox Series X/S"
+    ],
+    "generos": [
+      "Hero Shooter",
+      "PvP"
+    ],
+    "avaliacao": "8.8/10",
+    "capa": "https://static.wikia.nocookie.net/marveldatabase/images/d/d0/Marvel_Rivals_key_art_2025_002.jpg/revision/latest?cb=20251207173730",
+    "descricao": "Um jogo de tiro de heróis PvP baseado em equipes 6v6. Monte um esquadrão estelar da Marvel, elabore estratégias com inúmeros superpoderes e combine habilidades para desencadear táticas de equipe únicas.",
+    "trailer": "https://www.youtube.com/embed/-b0veB7q9P4?si=p8ob5mr4bJ5Rz1RJ",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UB0335-PPSA21669_00-0320312678245089"
+  },
+  {
+    "identificador": "guardians-of-the-galaxy",
+    "titulo": "Marvel's Guardians of the Galaxy",
+    "categoria": [
+      "De outro planeta",
+      "Guardiões da Galáxia"
+    ],
+    "ano": 2021,
+    "desenvolvedora": "Eidos-Montréal",
+    "plataformas": [
+      "PC",
+      "PS5",
+      "PS4",
+      "Xbox"
+    ],
+    "generos": [
+      "Ação",
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "avaliacao": "8.9/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BNGFmZWRmMDgtZDU4Mi00NmRmLWJmMjYtYjJlZTNmNTY4NmZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descricao": "Lidere os Guardiões da Galáxia como Star-Lord nesta aventura narrativa em terceira pessoa. Com a equipe ao seu lado, abra caminho a tiros em situações explosivas e salve o universo.",
+    "trailer": "https://www.youtube.com/embed/VdMiY9MEeMk?si=7AAaqqUuFdJtWJIR",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/concept/234665"
+  },
+  {
+    "identificador": "spiderman-miles-morales",
+    "titulo": "Marvel's Spider-Man: Miles Morales",
+    "categoria": [
+      "Homem-Aranha"
+    ],
+    "ano": 2020,
+    "desenvolvedora": "Insomniac Games",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "PC"
+    ],
+    "generos": [
+      "Ação",
+      "Aventura"
+    ],
+    "avaliacao": "9.0/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BZTc0MjdjN2QtOTc5Ni00N2NjLTk4NGQtMWYzODE1OTdhOTAzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descricao": "Acompanhe a ascensão de Miles Morales enquanto ele domina novos poderes explosivos para se tornar seu próprio Spider-Man e proteger o Harlem em meio a uma guerra de gangues tecnológicas.",
+    "trailer": "https://www.youtube.com/embed/65iW-nM4ncs?si=ZwJ0AyZrHH70pY6-",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP9000-PPSA01411_00-MARVELSSMMORALES"
+  },
+  {
+    "identificador": "wolverine",
+    "titulo": "Marvel's Wolverine",
+    "categoria": [
+      "X-Men & Mutantes",
+      "Aventuras Solo"
+    ],
+    "ano": 2026,
+    "desenvolvedora": "Insomniac Games",
+    "plataformas": [
+      "PS5"
+    ],
+    "generos": [
+      "Ação",
+      "Hack and Slash"
+    ],
+    "avaliacao": "7.8/10",
+    "capa": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2026/02/marvel-s-wolverine-tag-page-cover-art.jpg?q=50&fit=contain&w=480&dpr=1.5",
+    "imagemDestaque": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/0f8097282863ccd07abf4485a2bc733111127e628552207e.jpg",
+    "descricao": "Uma aventura autônoma e madura focada no mutante lendário Wolverine (Logan). Desenvolvido pela Insomniac Games com combate visceral, garras de adamantium e uma narrativa emocionante.",
+    "trailer": "https://www.youtube.com/embed/3Z42tBfBLJY?si=-06vBSzzcjVTUVRo",
+    "destaque": true,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP9000-PPSA03671_00-MARVELSWOLVERINE"
+  },
+  {
+    "identificador": "midnight-suns",
+    "titulo": "Marvel's Midnight Suns",
+    "categoria": [
+      "X-Men & Mutantes",
+      "Anti-Heróis"
+    ],
+    "ano": 2022,
+    "desenvolvedora": "Firaxis Games",
+    "plataformas": [
+      "PC",
+      "PS5",
+      "Xbox Series X/S"
+    ],
+    "generos": [
+      "Estratégia",
+      "RPG Tático"
+    ],
+    "avaliacao": "8.5/10",
+    "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32rNBxPmsf-imMfpTM0464OUcNzz070gFPCqxlfGiLrjBNoQJVxQjxRk1&s=10",
+    "descricao": "Lute ao lado de heróis lendários no lado sombrio do Universo Marvel. Jogue como 'The Hunter', personalizável e treinado para liderar Avengers, X-Men e Runaways contra as forças demoníacas de Lilith.",
+    "trailer": "https://www.youtube.com/embed/Ripgh8W2PMg?si=pZkWvOyY8KwU2DlA",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP1001-PPSA02621_00-MMSLEGENDARY0000"
+  },
+  {
+    "identificador": "iron-man-vr",
+    "titulo": "Marvel's Iron Man VR",
+    "categoria": [
+      "Aventuras Solo"
+    ],
+    "ano": 2020,
+    "desenvolvedora": "Camouflaj",
+    "plataformas": [
+      "PS VR",
+      "Meta Quest"
+    ],
+    "generos": [
+      "Realidade Virtual",
+      "Ação"
+    ],
+    "avaliacao": "8.0/10",
+    "capa": "https://image.api.playstation.com/vulcan/img/rnd/202010/2716/M2WqznjK7MWhViJNteq0TE3I.png",
+    "descricao": "Coloque os óculos de RV e vista a armadura do Homem de Ferro. Voe pelos céus, use os repulsores e enfrente a vilã Ghost enquanto defende as Indústrias Stark.",
+    "trailer": "https://www.youtube.com/embed/1IJgh1Vvtgc?si=QmMJWzO-2agO6Ije",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP9000-CUSA15345_00-MIMVRGAME0000001"
+  },
+  {
+    "identificador": "umvc3",
+    "titulo": "Ultimate Marvel vs. Capcom 3",
+    "categoria": [
+      "X-Men & Mutantes",
+      "Os Vingadores",
+      "Anti-Heróis"
+    ],
+    "ano": 2011,
+    "desenvolvedora": "Capcom",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "generos": [
+      "Luta",
+      "Arcade"
+    ],
+    "avaliacao": "9.2/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BYzU0YWIxMGQtZmVmZC00NjM3LTg3ZDItMTM4NTU5NzdhZTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descricao": "O clássico jogo de luta crossover 3v3. Monte seu time dos sonhos combinando heróis e mutantes da Marvel com os combatentes lendários da Capcom em batalhas frenéticas.",
+    "trailer": "https://www.youtube.com/embed/JSSILyBYtfs?si=CP2G0DsaPDkumzLg",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP0102-CUSA04622_00-UMVC3FULLGAME000"
+  },
+  {
+    "identificador": "marvel-avengers",
+    "titulo": "Marvel's Avengers",
+    "categoria": [
+      "Os Vingadores"
+    ],
+    "ano": 2020,
+    "desenvolvedora": "Square Enix",
+    "plataformas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "generos": [
+      "Luta",
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "avaliacao": "6.4/10",
+    "capa": "https://cdn2.steamgriddb.com/grid/e032cf98bf49f9572e0d7dcdaa74da6f.jpg",
+    "descricao": "No Dia A, quando Capitão América, Homem de Ferro, Hulk, Viúva Negra e Thor inauguram um quartel-general em São Francisco. Um acidente catastrófico causa destruição e a morte do Capitão América, fazendo a equipe ser culpada e se separar. Cinco anos depois, Kamala Khan tenta reunir os heróis contra a organização I.M.A.",
+    "trailer": "https://www.youtube.com/embed/6MKiLy3Y32k?si=rkhrmzQTPf2LrVd-",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/marvel%27s%20avengers"
+  },
+  {
+    "identificador": "lego-marvel-1",
+    "titulo": "Lego Marvel Super Heroes",
+    "categoria": [
+      "Os Vingadores",
+      "X-Men & Mutantes",
+      "Quarteto Fantástico"
+    ],
+    "ano": 2013,
+    "desenvolvedora": "TT Games",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "PS5",
+      "Xbox Series X/S",
+      "Xbox One"
+    ],
+    "generos": [
+      "Arcade",
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "avaliacao": "8.3/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BOTZlYTMxYjEtOTFkMi00MDY4LWE5Y2UtZjY3OWI0YmRhY2Y1XkEyXkFqcGc@._V1_.jpg",
+    "descricao": "O enredo começa quando o Surfista Prateado é atingido na Terra e tem sua prancha estilhaçada em Tijolos Cósmicos. Loki e o Doutor Destino se aliam a vários vilões para coletar essas peças e construir uma superarma capaz de destruir ou dominar o mundo.",
+    "trailer": "https://www.youtube.com/embed/ydXUZbrg1nc?si=8LgGoYC7JwiunaZ6",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP1018-CUSA00083_00-LEGOMARVEL000000"
+  },
+  {
+    "identificador": "lego-marvel-2",
+    "titulo": "Lego Marvel Super Heroes 2",
+    "categoria": [
+      "Os Vingadores"
+    ],
+    "ano": 2017,
+    "desenvolvedora": "TT Games",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "PS5",
+      "Xbox Series X/S",
+      "Xbox One"
+    ],
+    "generos": [
+      "Arcade",
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "avaliacao": "7.6/10",
+    "capa": "https://upload.wikimedia.org/wikipedia/pt/8/80/Lego_Marvel_Super_Heroes_2_cover.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
+    "descricao": "Kang, o Conquistador, usa o Cristal do Nexus para roubar várias cidades e locais de diferentes épocas e dimensões, unindo-os em um gigantesco mundo aberto chamado Cronópolis (Chronopolis).",
+    "trailer": "https://www.youtube.com/embed/jBhHE3CY46A?si=kESQkkNmdPGVgkQH",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP1018-CUSA08469_00-LEGOMARVELSH2001"
+  },
+  {
+    "identificador": "marvel-cosmic-invasion",
+    "titulo": "Marvel Cosmic Invasion",
+    "categoria": [
+      "Os Vingadores",
+      "Guardiões da Galáxia",
+      "X-Men & Mutantes",
+      "De outro planeta"
+    ],
+    "ano": 2025,
+    "desenvolvedora": "Tribute Games",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "PS5",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "generos": [
+      "Beat 'em up",
+      "Ação",
+      "Arcade"
+    ],
+    "avaliacao": "8.1/10",
+    "capa": "https://upload.wikimedia.org/wikipedia/pt/7/72/Marvel_Cosmic_Invasion_cover_art.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
+    "descricao": "Vários heróis do universo Marvel unem forças para enfrentar a terrível Onda de Aniquilação comandada por Annihilus em um jogo de combate arcade no estilo retrô pixel art.",
+    "trailer": "https://www.youtube.com/embed/v7eYGv9tgNI?si=YXy5xumlblGfME76",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/EP1470-PPSA29629_00-MARVELADOTEMUPS5"
+  },
+  {
+    "identificador": "marvel-ultimate-alliance",
+    "titulo": "Marvel: Ultimate Alliance",
+    "categoria": [
+      "Os Vingadores",
+      "X-Men & Mutantes",
+      "Quarteto Fantástico",
+      "Anti-Heróis"
+    ],
+    "ano": 2006,
+    "desenvolvedora": "Raven Software",
+    "plataformas": [
+      "PC",
+      "PS2",
+      "PS3",
+      "PS4",
+      "Xbox",
+      "Xbox 360",
+      "Xbox One",
+      "Wii"
+    ],
+    "generos": [
+      "Ação",
+      "RPG",
+      "Hack and Slash"
+    ],
+    "avaliacao": "8.2/10",
+    "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZ8rG1eDuZgXP1nnjqE4uYAcVEcLOAa5TO9b4KAq3yUn7tQ4Lx-yiCmU&s=10",
+    "descricao": "Uma grande aliança de super-heróis da Marvel se une para combater o Doutor Destino e os Mestres do Terror, que pretendem dominar o universo roubando o poder dos deuses.",
+    "trailer": "https://www.youtube.com/embed/bwMxBctbUf8?si=Rjsu2WfaU_3YvB3_",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/marvel%20ultimate%20alliance"
+  },
+  {
+    "identificador": "marvel-ultimate-alliance-2",
+    "titulo": "Marvel: Ultimate Alliance 2",
+    "categoria": [
+      "Os Vingadores",
+      "X-Men & Mutantes",
+      "Quarteto Fantástico",
+      "Anti-Heróis"
+    ],
+    "ano": 2009,
+    "desenvolvedora": "Vicarious Visions",
+    "plataformas": [
+      "PC",
+      "PS2",
+      "PS3",
+      "PS4",
+      "Xbox 360",
+      "Xbox One",
+      "Wii"
+    ],
+    "generos": [
+      "Ação",
+      "RPG",
+      "Hack and Slash"
+    ],
+    "avaliacao": "7.4/10",
+    "capa": "https://cdn2.steamgriddb.com/grid/6299f7b7e197e0a3cfb007c2c0b12a20.png",
+    "descricao": "Baseado nas histórias de Guerra Secreta e Guerra Civil, o jogo divide os heróis em lados opostos quanto à Lei de Registro de Super-humanos enquanto uma ameaça global emerge.",
+    "trailer": "https://www.youtube.com/embed/85y9xNlMiKc?si=dqxuu0B9cSVc8Cuu",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/marvel%20ultimate%20alliance%202"
+  },
+  {
+    "identificador": "guardians-of-the-galaxy-telltale",
+    "titulo": "Marvel's Guardians of the Galaxy: The Telltale Series",
+    "categoria": [
+      "Guardiões da Galáxia",
+      "De outro planeta"
+    ],
+    "ano": 2017,
+    "desenvolvedora": "Telltale Games",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "Xbox One",
+      "iOS"
+    ],
+    "generos": [
+      "Aventura",
+      "Narrativo",
+      "Sci-Fi"
+    ],
+    "avaliacao": "7.0/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BNWUzYzIxYjQtZmI0OC00MTM3LWI5NDUtYjk2MGM0YzAzZjY1XkEyXkFqcGc@._V1_.jpg",
+    "descricao": "Star-Lord e sua equipe descobrem uma relíquia de poder inimaginável, iniciando uma jornada episódica em que cada escolha molda as relações do grupo e o destino do universo.",
+    "trailer": "https://www.youtube.com/embed/xrKBKk59bZw?si=8PVlrl1HH3Rh8Y2X",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/guardians%20of%20the%20galaxy%20telltale"
+  },
+  {
+    "identificador": "lego-marvel-avengers",
+    "titulo": "Lego Marvel's Avengers",
+    "categoria": [
+      "Os Vingadores"
+    ],
+    "ano": 2016,
+    "desenvolvedora": "TT Games",
+    "plataformas": [
+      "PC",
+      "PS3",
+      "PS4",
+      "Xbox 360",
+      "Xbox One",
+      "Wii U",
+      "3DS"
+    ],
+    "generos": [
+      "Arcade",
+      "Aventura",
+      "Ação"
+    ],
+    "avaliacao": "7.1/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BMTgwNjRhZjctNGEwYS00ZDMzLWJlZTYtOThkNDhlZmFmMTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descricao": "Reviva os eventos e batalhas históricas dos filmes do Universo Cinematográfico da Marvel, recriados com o clássico humor e estilo de blocos da franquia LEGO.",
+    "trailer": "https://www.youtube.com/embed/hyWbPHrsW_g?si=UBvHAXqINFvOfnzI",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP1018-CUSA02107_00-LEGOMARVELAVENGE"
+  },
+  {
+    "identificador": "marvel-vs-capcom-infinite",
+    "titulo": "Marvel vs. Capcom: Infinite",
+    "categoria": [
+      "Os Vingadores",
+      "Guardiões da Galáxia",
+      "Anti-Heróis",
+      "De outro planeta"
+    ],
+    "ano": 2017,
+    "desenvolvedora": "Capcom",
+    "plataformas": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "generos": [
+      "Luta",
+      "Ação"
+    ],
+    "avaliacao": "7.2/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BZmQxOTY3NzAtZWQ0NC00ZmZjLThmMmItOTMyNGE3MDJlOTJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descricao": "Os mundos da Marvel e da Capcom colidem quando Ultron Sigma ameaça infectar toda a vida orgânica, exigindo que heróis de ambas as franquias utilizem as Joias do Infinito para vencer.",
+    "trailer": "https://www.youtube.com/embed/nXJztWabL7o?si=m-RX2nPmrRMjKZNI",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/product/UP0102-CUSA06400_00-DUCKFULLBUNDLE00"
+  },
+  {
+    "identificador": "deadpool",
+    "titulo": "Deadpool",
+    "categoria": [
+      "X-Men & Mutantes",
+      "Anti-Heróis"
+    ],
+    "ano": 2013,
+    "desenvolvedora": "High Moon Studios",
+    "plataformas": [
+      "PC",
+      "PS3",
+      "PS4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "generos": [
+      "Ação",
+      "Hack and Slash",
+      "Comédia"
+    ],
+    "avaliacao": "7.3/10",
+    "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd82bTJb1F7NDS4HX2OzWVuQoodB37fjEknB5LXaRWYUnm5cbWlBVD0B0&s=10",
+    "descricao": "O Mercenário Tagarela estrela seu próprio jogo quebrando a quarta parede o tempo todo, entregando uma aventura caótica e violenta enquanto obriga os desenvolvedores a seguirem seu roteiro.",
+    "trailer": "https://www.youtube.com/embed/rJ0CtZZhkxM?si=Go8kYegLStXHk5Qs",
+    "destaque": false,
+    "urlPSN": "https://www.amazon.com.br/MICROSOFT-76989-Deadpool-Xbox-360/dp/B008LW4SBQ"
+  },
+  {
+    "identificador": "marvel-ultimate-alliance-3",
+    "titulo": "Marvel Ultimate Alliance 3: The Black Order",
+    "categoria": [
+      "Os Vingadores",
+      "X-Men & Mutantes",
+      "Guardiões da Galáxia",
+      "De outro planeta"
+    ],
+    "ano": 2019,
+    "desenvolvedora": "Team Ninja",
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "generos": [
+      "Ação",
+      "RPG",
+      "Hack and Slash"
+    ],
+    "avaliacao": "7.3/10",
+    "capa": "https://m.media-amazon.com/images/M/MV5BZTRiN2UwOWYtZWE1Yi00NzQ0LWE0NTEtZTBlMTIyZTc5NjU1XkEyXkFqcGc@._V1_.jpg",
+    "descricao": "Forme seu time dos sonhos com dezenas de heróis da Marvel para impedir que Thanos e a Ordem Negra reúnam as Joias do Infinito e causem a destruição da galáxia.",
+    "trailer": "https://www.youtube.com/embed/1RohG-JzXiM?si=tf_nMP5Qne69WzUo",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/marvel%20ultimate%20alliance%203"
+  },
+  {
+    "identificador": "marvel-super-heroes-war-of-gems",
+    "titulo": "Marvel Super Heroes: War of the Gems",
+    "categoria": [
+      "Os Vingadores",
+      "X-Men & Mutantes",
+      "De outro planeta"
+    ],
+    "ano": 1996,
+    "desenvolvedora": "Capcom",
+    "plataformas": [
+      "SNES"
+    ],
+    "generos": [
+      "Plataforma",
+      "Ação",
+      "Beat 'em up"
+    ],
+    "avaliacao": "7.5/10",
+    "capa": "https://i.pinimg.com/736x/49/94/f4/4994f4aa5eb4b87e0a9b7f29bfc04d03.jpg",
+    "descricao": "Adam Warlock convoca heróis como Homem de Ferro, Capitão América, Wolverine, Homem-Aranha e Hulk para coletar as Joias do Infinito antes que os vilões assumam o controle do universo.",
+    "trailer": "https://www.youtube.com/embed/SNpeFc_GpjQ?si=X1yADd5FHAnZr8NV",
+    "destaque": false,
+    "urlPSN": "https://store.playstation.com/pt-br/search/marvel%20super%20heroes%20war%20of%20the%20gems"
+  }
+]

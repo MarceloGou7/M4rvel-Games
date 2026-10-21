@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090c" />
+    <title>Marvel Games | Catálogo</title>
+    <link rel="icon" href="/Marvel_Games_icon.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      class="tela-introducao"
+      id="tela-introducao"
+      aria-label="Introdução do catálogo"
+    >
+      <video
+        class="video-introducao"
+        id="video-introducao"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+        aria-hidden="true"
+      >
+        <source src="intro-marvel-games.mp4" type="video/mp4" />
+      </video>
+      <div class="sobreposicao-introducao"></div>
+      <div class="carregando-introducao" id="carregando-introducao">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="barra-navegacao">
+      <div class="conteudo-navegacao">
+        <a href="#" class="marca" aria-label="Marvel Games">
+          <a href="#" class="marca-logo">
+            <img src="/logo.jpeg" alt="logo Marvel Games" />
+            <a/>
+        </a>
+
+        <nav class="menu-principal" aria-label="Navegação principal">
+          <a href="#catalogo">CATÁLOGO</a>
+          <a href="#sobre">SOBRE</a>
+          <a href="https://www.marvel.com" target="_blank" rel="noopener"
+            >MARVEL.COM</a
+          >
+        </nav>
+
+        <div class="controles-navegacao">
+          <label class="campo-busca">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <input
+              type="search"
+              id="campo-busca"
+              placeholder="Buscar por jogo ou categoria..."
+              autocomplete="off"
+            />
+          </label>
+
+          <label class="rotulo-plataforma" for="filtro-plataforma">
+            <span class="texto-acessivel">Filtrar por plataforma</span>
+            <select id="filtro-plataforma" class="seletor-plataforma">
+              <option value="TODAS">Todas as plataformas</option>
+              <option value="PS5">PlayStation 5</option>
+              <option value="PS4">PlayStation 4</option>
+              <option value="PC">PC / Steam</option>
+              <option value="Xbox">Xbox</option>
+              <option value="Switch">Nintendo Switch</option>
+              <option value="PS VR">PlayStation VR</option>
+              <option value="Meta Quest">Meta Quest</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="destaque-principal"
+        id="destaque-principal"
+        aria-label="Jogo em destaque"
+      >
+        <div class="imagem-destaque" id="imagem-destaque"></div>
+        <div class="brilho-destaque"></div>
+        <div class="grade-destaque"></div>
+        <div class="degrade-destaque"></div>
+
+        <div class="conteudo-destaque">
+          <div class="selo-destaque">
+            <span class="ponto-destaque"></span>
+            EM DESTAQUE
+          </div>
+          <p class="rotulo-universo">UNIVERSO MARVEL • CATÁLOGO DE JOGOS</p>
+          <h1 class="titulo-destaque" id="titulo-destaque">Carregando...</h1>
+          <p class="descricao-destaque" id="descricao-destaque">
+            Explore títulos marcantes do universo Marvel.
+          </p>
+          <div class="metadados-destaque" id="metadados-destaque"></div>
+
+          <div class="acoes-destaque">
+            <button class="botao botao-principal" id="botao-detalhes" type="button">
+              <i class="fa-solid fa-cart-shopping"></i> Comprar
+            </button>
+            <button class="botao botao-secundario" id="botao-trailer">
+              <i class="fa-solid fa-play"></i> Assistir trailer
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao-catalogo" id="catalogo">
+        <div class="container">
+          <div class="cabecalho-catalogo">
+            <div>
+              <h2 class="titulo-secao">Catálogo de jogos</h2>
+            </div>
+            <div class="contador-catalogo" id="contador-catalogo">
+              <strong>0</strong> títulos encontrados
+            </div>
+          </div>
+
+          <div id="categorias-container"></div>
+        </div>
+      </section>
+
+      <section class="secao-sobre" id="sobre">
+        <div class="container sobre-grade">
+          <div>
+            <p class="sobretitulo">SOBRE O PROJETO</p>
+            <h2>Um arquivo digital<br /><span>do universo Marvel.</span></h2>
+          </div>
+          <div class="sobre-texto">
+            <p>
+              Projeto acadêmico desenvolvido para apresentar um catálogo
+              interativo de jogos Marvel, com busca, filtros, destaques e fichas
+              detalhadas.
+            </p>
+            <p>
+              Os títulos exibidos são carregados dinamicamente a partir do
+              arquivo <code>jogos.json</code>, permitindo ampliar o catálogo sem
+              alterar a estrutura da página.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="fundo-modal" id="modal-jogo" aria-hidden="true">
+      <div
+        class="modal-jogo"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="titulo-modal"
+      >
+        <button
+          class="fechar-modal"
+          id="botao-fechar-modal"
+          aria-label="Fechar"
+        >
+          &times;
+        </button>
+        <div class="area-video">
+          <div class="video-container" id="caixa-video">
+            <iframe
+              id="video-modal"
+              src=""
+              title="Trailer do jogo"
+              frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="conteudo-modal">
+          <div class="etiquetas-modal">
+            <span class="etiqueta-categoria" id="categoria-modal"
+              >Categoria</span
+            >
+            <span class="etiqueta-avaliacao" id="avaliacao-modal"
+              ><i class="fa-solid fa-star"></i> —</span
+            >
+          </div>
+          <h2 class="titulo-modal" id="titulo-modal">Título do jogo</h2>
+          <div class="detalhes-modal">
+            <div>
+              <span>Desenvolvedora</span
+              ><strong id="desenvolvedora-modal">—</strong>
+            </div>
+            <div><span>Lançamento</span><strong id="ano-modal">—</strong></div>
+            <div><span>Gêneros</span><strong id="generos-modal">—</strong></div>
+            <div>
+              <span>Plataformas</span><strong id="plataformas-modal">—</strong>
+            </div>
+          </div>
+          <p class="descricao-modal" id="descricao-modal">Descrição do jogo.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="rodape" id="rodape">
+      <div class="container conteudo-rodape">
+        <div class="marca-rodape">
+          <a href="#" class="marca-logo">
+            <img src="/logo.jpeg" alt="logo Marvel Games" />
+            <a/>
+        </div>
+        <p>Projeto acadêmico • Catálogo demonstrativo • 2026</p>
+        <span class="linha-rodape"></span>
+        <small
+          >Marvel e seus personagens são propriedades de seus respectivos
+          detentores. Projeto sem finalidade comercial.</small
+        >
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
