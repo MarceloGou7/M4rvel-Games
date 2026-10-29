@@ -1,5 +1,7 @@
 # Marvel Games (v1.4.0)
 
+_© PROJETO ACADÊMICO SEM FINS LUCRATIVOS E/OU COM LIGAÇÃO ÀS PROPRIEDADES DISNEY._
+
 ## Demo Online
 
 A aplicação está disponível para acesso em:
@@ -47,3 +49,5 @@ O projeto utiliza uma arquitetura **Jamstack**, na qual o front-end consome um a
 ├── app.js               # Lógica de aplicação e manipulação dos dados
 └── jogos.json           # Catálogo estático de jogos
 ```
+
+_© PROJETO ACADÊMICO SEM FINS LUCRATIVOS E/OU COM LIGAÇÃO ÀS PROPRIEDADES DISNEY._
