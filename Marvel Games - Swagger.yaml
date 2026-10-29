@@ -1,0 +1,192 @@
+
+openapi: 3.0.3
+
+info:
+  title: Marvel Games API
+  version: 1.5.0
+  description: |
+    # Marvel Games API
+
+    API responsável por disponibilizar os dados do catálogo
+    de jogos do universo Marvel.
+
+    O front-end consome o arquivo estático `jogos.json`,
+    utilizando suas informações para renderizar cards,
+    aplicar filtros, apresentar detalhes dos jogos e
+    disponibilizar links externos.
+
+    ## Funcionalidades
+    - Consulta do catálogo completo de jogos.
+    - Disponibilização de informações sobre cada título.
+    - Identificação de jogos em destaque.
+    - Acesso a imagens, trailers e páginas externas.
+    
+    ## Autenticação
+    Este recurso é público e não exige autenticação.
+    
+  contact:
+    name: Marvel Games Project
+    url: https://marvelgames.vercel.app/
+
+  license:
+    name: Projeto acadêmico
+    url: https://marvelgames.vercel.app/
+
+servers:
+  - url: https://marvelgames.vercel.app
+    description: Ambiente de produção — Vercel
+
+tags:
+  - name: Catálogo
+    description: Operações de consulta ao catálogo de jogos Marvel.
+
+paths:
+  /jogos.json:
+    get:
+      tags:
+        - Catálogo
+      summary: Recuperar catálogo de jogos
+      description: |
+        Retorna a coleção completa de jogos cadastrados.
+
+        Os dados são disponibilizados em formato JSON e
+        podem ser utilizados pelo front-end para exibição
+        e filtragem do catálogo.
+
+        Não são necessários parâmetros ou autenticação.
+      operationId: getJogos
+
+      responses:
+        '200':
+          description: Catálogo recuperado com sucesso.
+          content:
+            application/json:
+              schema:
+                type: array
+                description: Lista de jogos cadastrados.
+                items:
+                  $ref: '#/components/schemas/Jogo'
+              example:
+                - identificador: spiderman-2
+                  titulo: "Marvel's Spider-Man 2"
+                  categoria:
+                    - Homem-Aranha
+                  ano: 2023
+                  desenvolvedora: Insomniac Games
+                  plataformas:
+                    - PS5
+                    - PC
+                  generos:
+                    - Ação
+                    - Aventura
+                  avaliacao: "9.5/10"
+                  capa: "https://exemplo.com/capa-spiderman2.jpg"
+                  descricao: "Peter Parker e Miles Morales precisam enfrentar a ameaça do simbionte Venom."
+                  trailer: "https://www.youtube.com/watch?v=demo"
+                  destaque: true
+                  urlPSN: "https://store.playstation.com/pt-br/concept/10002456"
+
+        '404':
+          description: Arquivo de catálogo não encontrado.
+
+        '500':
+          description: Erro interno durante a disponibilização do recurso.
+
+        '503':
+          description: Serviço temporariamente indisponível.
+
+components:
+  schemas:
+    Jogo:
+      type: object
+      description: Representação completa de um jogo do catálogo Marvel.
+      required:
+        - identificador
+        - titulo
+        - ano
+        - desenvolvedora
+        - plataformas
+        - capa
+
+      properties:
+        identificador:
+          type: string
+          description: Identificador único do jogo no formato slug.
+          example: spiderman-2
+
+        titulo:
+          type: string
+          description: Nome comercial oficial do jogo.
+          example: "Marvel's Spider-Man 2"
+
+        categoria:
+          type: array
+          description: Franquia ou núcleo de personagens associado ao jogo.
+          items:
+            type: string
+          example:
+            - Homem-Aranha
+
+        ano:
+          type: integer
+          format: int32
+          minimum: 1970
+          description: Ano de lançamento do jogo.
+          example: 2023
+
+        desenvolvedora:
+          type: string
+          description: Estúdio responsável pelo desenvolvimento.
+          example: Insomniac Games
+
+        plataformas:
+          type: array
+          description: Plataformas nas quais o jogo está disponível.
+          items:
+            type: string
+          example:
+            - PS5
+            - PC
+
+        generos:
+          type: array
+          description: Categorias de gênero do jogo.
+          items:
+            type: string
+          example:
+            - Ação
+            - Aventura
+
+        avaliacao:
+          type: string
+          description: Avaliação apresentada pelo catálogo.
+          example: "9.5/10"
+
+        capa:
+          type: string
+          format: uri
+          description: Endereço da imagem de capa do jogo.
+          example: "https://exemplo.com/capa-spiderman2.jpg"
+
+        descricao:
+          type: string
+          description: Resumo da história ou proposta do jogo.
+          example: "Peter Parker e Miles Morales enfrentam Venom."
+
+        trailer:
+          type: string
+          format: uri
+          description: Link externo para o trailer do jogo.
+          example: "https://www.youtube.com/watch?v=demo"
+
+        destaque:
+          type: boolean
+          description: Indica se o jogo recebe destaque visual na interface.
+          default: false
+          example: true
+
+        urlPSN:
+          type: string
+          format: uri
+          description: Link externo para a página do jogo na PlayStation Store.
+          example: "https://store.playstation.com/pt-br/concept/10002456"
